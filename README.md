@@ -20,7 +20,7 @@ El sistema está compuesto por servicios independientes comunicados vía **Sprin
 * **Lombok** para optimización de código.
 * **Docker & Docker Compose** para la contenedorización y orquestación.
 
-##🛡️ Calidad de Código y Pruebas
+## 🛡️ Calidad de Código y Pruebas
 *Para garantizar la estabilidad del sistema, hemos implementado una suite de pruebas unitarias cubriendo el 80% de la lógica de negocio de los servicios principales.
 
 *Tecnologías: JUnit 5, Mockito.
