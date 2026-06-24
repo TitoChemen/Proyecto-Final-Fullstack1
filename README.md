@@ -20,6 +20,16 @@ El sistema está compuesto por servicios independientes comunicados vía **Sprin
 * **Lombok** para optimización de código.
 * **Docker & Docker Compose** para la contenedorización y orquestación.
 
+##🛡️ Calidad de Código y Pruebas
+*Para garantizar la estabilidad del sistema, hemos implementado una suite de pruebas unitarias cubriendo el 80% de la lógica de negocio de los servicios principales.
+
+*Tecnologías: JUnit 5, Mockito.
+
+*Enfoque: Pruebas de integración de lógica de negocio (Business Logic) y validación de contratos entre microservicios (Feign Clients).
+
+*Reporte de Cobertura de Pruebas (Test Suite):
+*(Aquí es donde insertas la captura de pantalla del escudito verde de IntelliJ, o una captura de la consola donde salen todos los tests en verde con el "Exit code 0").
+
 ## 📖 Documentación de la API (Swagger)
 La documentación interactiva de los endpoints está disponible a través de Swagger. El puerto de acceso dependerá del entorno desde donde levantes el ecosistema:
 
